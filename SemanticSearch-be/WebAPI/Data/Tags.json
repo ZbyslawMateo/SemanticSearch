@@ -1,0 +1,464 @@
+[
+  {
+    "Id": "019d96e8-d184-77d3-8416-3f464772dd41",
+    "Name": "Basic",
+    "UsageCount": 36,
+    "LastUsedAt": "2026-04-16 17:29:11.725000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0001",
+    "Name": "Casual",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0002",
+    "Name": "Everyday",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0003",
+    "Name": "Work",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0004",
+    "Name": "Business casual",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0005",
+    "Name": "Business formal",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0006",
+    "Name": "Job interview",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0007",
+    "Name": "Conference",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0008",
+    "Name": "Presentation",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0009",
+    "Name": "School",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0010",
+    "Name": "University",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0011",
+    "Name": "Date",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0012",
+    "Name": "Friends meetup",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0013",
+    "Name": "Coffee",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0014",
+    "Name": "Restaurant",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0015",
+    "Name": "Dinner elegant",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0016",
+    "Name": "Family gathering",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0017",
+    "Name": "Wedding",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0018",
+    "Name": "Birthday party",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0019",
+    "Name": "House party",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0020",
+    "Name": "Club night",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0021",
+    "Name": "Festival",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0022",
+    "Name": "Special event",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0023",
+    "Name": "City walk",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0024",
+    "Name": "Shopping",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0025",
+    "Name": "Travel day",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0026",
+    "Name": "Weekend trip",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0027",
+    "Name": "Vacation",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0028",
+    "Name": "Beach",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0029",
+    "Name": "Airport outfit",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0030",
+    "Name": "Hotel stay",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0031",
+    "Name": "Gym",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0032",
+    "Name": "Running",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0033",
+    "Name": "Yoga",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0034",
+    "Name": "Hiking",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0035",
+    "Name": "Outdoor activity",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0036",
+    "Name": "Picnic",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0037",
+    "Name": "Brunch",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0038",
+    "Name": "Museum visit",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0039",
+    "Name": "Theater",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0040",
+    "Name": "Concert",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0041",
+    "Name": "Holiday celebration",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0042",
+    "Name": "Christmas",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0043",
+    "Name": "New Year party",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0044",
+    "Name": "Summer outfit",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0045",
+    "Name": "Winter outfit",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0046",
+    "Name": "Rainy day",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0047",
+    "Name": "Hot weather",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0048",
+    "Name": "Cold weather",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0049",
+    "Name": "Streetwear",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0050",
+    "Name": "Minimalist outfit",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0051",
+    "Name": "Trendy outfit",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0052",
+    "Name": "Halloween",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0053",
+    "Name": "Valentine's Day",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0054",
+    "Name": "Easter",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0055",
+    "Name": "Carnival",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0057",
+    "Name": "Graduation",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0058",
+    "Name": "Prom",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0059",
+    "Name": "Homecoming",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0060",
+    "Name": "Baby shower",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0062",
+    "Name": "Engagement party",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "2d9c4a2a-5c7b-4a4c-9e7a-1b1f2f8a0063",
+    "Name": "Anniversary dinner",
+    "UsageCount": 0,
+    "LastUsedAt": "2025-01-01 00:00:00.000000 +00:00"
+  },
+  {
+    "Id": "019df912-4ed6-7b33-85e0-76a134871d4f",
+    "Name": "restaurant",
+    "UsageCount": 1,
+    "LastUsedAt": "2026-05-05 16:56:59.862724 +00:00"
+  },
+  {
+    "Id": "019df789-9659-741b-a220-f226520c6edd",
+    "Name": "university",
+    "UsageCount": 5,
+    "LastUsedAt": "2026-05-23 19:26:37.322034 +00:00"
+  },
+  {
+    "Id": "019e07ae-e06f-790e-a75c-82e2261d0f51",
+    "Name": "streetwear",
+    "UsageCount": 1,
+    "LastUsedAt": "2026-05-12 07:23:31.968782 +00:00"
+  },
+  {
+    "Id": "019df97f-0ffc-77f5-9edb-cec867279239",
+    "Name": "birthday party",
+    "UsageCount": 1,
+    "LastUsedAt": "2026-05-12 15:11:42.544414 +00:00"
+  },
+  {
+    "Id": "019dacdd-bf71-74eb-af86-76786edf84b3",
+    "Name": "basic",
+    "UsageCount": 4,
+    "LastUsedAt": "2026-05-11 17:36:57.324625 +00:00"
+  },
+  {
+    "Id": "019df789-9626-70c3-8269-7c9610b7a0ad",
+    "Name": "weekend trip",
+    "UsageCount": 1,
+    "LastUsedAt": "2026-05-12 09:10:16.883378 +00:00"
+  },
+  {
+    "Id": "019df97f-0ff2-70c2-b214-58e92f852a74",
+    "Name": "wedding",
+    "UsageCount": 1,
+    "LastUsedAt": "2026-05-11 20:51:24.200285 +00:00"
+  },
+  {
+    "Id": "019df789-9645-74ce-aa66-63d9a074db1a",
+    "Name": "school",
+    "UsageCount": 4,
+    "LastUsedAt": "2026-05-23 20:15:12.730202 +00:00"
+  },
+  {
+    "Id": "019df912-4ed7-7d2f-829b-5d387c1fc8cd",
+    "Name": "house party",
+    "UsageCount": 1,
+    "LastUsedAt": "2026-05-11 19:28:29.325012 +00:00"
+  },
+  {
+    "Id": "019df877-0059-7d73-8f19-8726b647da36",
+    "Name": "shopping",
+    "UsageCount": 2,
+    "LastUsedAt": "2026-05-23 20:15:12.726755 +00:00"
+  },
+  {
+    "Id": "019dc5de-ec0e-7ea5-b7c1-7f58fde0964f",
+    "Name": "everyday",
+    "UsageCount": 5,
+    "LastUsedAt": "2026-05-23 20:15:12.728295 +00:00"
+  },
+  {
+    "Id": "019dc5de-ec11-786c-be6c-55527cc74a7b",
+    "Name": "coffee",
+    "UsageCount": 9,
+    "LastUsedAt": "2026-05-12 16:07:54.496682 +00:00"
+  },
+  {
+    "Id": "019dc5de-ec18-79e4-9a2f-42fbb16954d3",
+    "Name": "friends meetup",
+    "UsageCount": 6,
+    "LastUsedAt": "2026-05-23 19:14:52.837156 +00:00"
+  },
+  {
+    "Id": "019dce7c-29e1-7280-ad0e-3d3e726e4b45",
+    "Name": "dinner elegant",
+    "UsageCount": 6,
+    "LastUsedAt": "2026-05-23 19:26:37.320788 +00:00"
+  },
+  {
+    "Id": "019df7a2-b2fa-7a1d-ad44-6f5a38ac08a1",
+    "Name": "date",
+    "UsageCount": 1,
+    "LastUsedAt": "2026-05-12 15:11:42.545795 +00:00"
+  }
+]

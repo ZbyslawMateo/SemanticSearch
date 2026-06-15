@@ -33,9 +33,43 @@ namespace Persistence.Migrations
                     table.PrimaryKey("PK_Colors", x => x.Id);
                 });
 
-  
+            migrationBuilder.AddColumn<Guid>(
+                name: "BrandId",
+                table: "Items",
+                type: "uuid",
+                nullable: true);
 
-        
+            migrationBuilder.AddColumn<Guid>(
+                name: "ColorId",
+                table: "Items",
+                type: "uuid",
+                nullable: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Items_BrandId",
+                table: "Items",
+                column: "BrandId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Items_ColorId",
+                table: "Items",
+                column: "ColorId");
+
+            migrationBuilder.AddForeignKey(
+                name: "FK_Items_Brands_BrandId",
+                table: "Items",
+                column: "BrandId",
+                principalTable: "Brands",
+                principalColumn: "Id",
+                onDelete: ReferentialAction.SetNull);
+
+            migrationBuilder.AddForeignKey(
+                name: "FK_Items_Colors_ColorId",
+                table: "Items",
+                column: "ColorId",
+                principalTable: "Colors",
+                principalColumn: "Id",
+                onDelete: ReferentialAction.SetNull);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

@@ -84,11 +84,8 @@ public sealed class PostEmbeddingWorker(
         }));
 
         return $"""
-                Document: Post
-                Post title: {post.Title}
                 Post title: {post.Title}
                 Post description: {post.Description}
-                Tags: {tags}
                 Tags: {tags}
                 Related items:
                 {items}

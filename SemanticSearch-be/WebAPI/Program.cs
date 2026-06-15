@@ -48,6 +48,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+app.UseHttpsRedirection();
+
 app.MapGet("/posts/search", async (
     [FromQuery] string query,
     [FromServices] AppDbContext context,
@@ -56,6 +58,9 @@ app.MapGet("/posts/search", async (
 {
     if (string.IsNullOrWhiteSpace(query))
         return Results.BadRequest("Query is required.");
+
+    if (query.Length > 500)
+        return Results.BadRequest("Query is too long (max 500 characters).");
 
     var queryEmbedding = await embeddingClient.CreateEmbeddingAsync($"Query: {query}", cancellationToken);
     var vector = new Vector(queryEmbedding);
@@ -66,14 +71,6 @@ app.MapGet("/posts/search", async (
         .AsNoTracking()
         .AsSplitQuery()
         .Where(x => x.Embedding != null)
-        .Include(x => x.PostTags)
-            .ThenInclude(x => x.Tag)
-        .Include(x => x.PostItems)
-            .ThenInclude(x => x.Item)
-            .ThenInclude(x => x.Brand)
-        .Include(x => x.PostItems)
-            .ThenInclude(x => x.Item)
-            .ThenInclude(x => x.Color)
         .Select(x => new
         {
             x.Id,
@@ -132,48 +129,28 @@ app.MapGet("/posts/search", async (
 // Flat ranked list: every post, its items and tags, with similarity
     var rankings = results.SelectMany(post =>
         {
-            var rows = new List<object>();
-
-            // The post itself
-            rows.Add(new
+            var rows = new List<RankingRow>
             {
-                Type = "post",
-                Label = post.Title,
-                Detail = (string?)null,
-                Similarity = post.Similarity
-            });
+                // The post itself
+                new("post", post.Title, null, post.Similarity)
+            };
 
-            // Each item attached to the post
-            foreach (var item in post.Items)
+            // Each item attached to the post (similarity derived from the post score)
+            rows.AddRange(post.Items.Select(item =>
             {
                 var detail = string.Join(" · ", new[] { item.Brand, item.Color }
                     .Where(x => !string.IsNullOrWhiteSpace(x)));
 
-                rows.Add(new
-                {
-                    Type = "item",
-                    Label = item.Title,
-                    Detail = detail,
-                    Similarity = post.Similarity  // derived from post score
-                });
-            }
+                return new RankingRow("item", item.Title, detail, post.Similarity);
+            }));
 
             // Each tag
-            foreach (var tag in post.Tags)
-            {
-                rows.Add(new
-                {
-                    Type = "tag",
-                    Label = tag,
-                    Detail = (string?)null,
-                    Similarity = post.Similarity
-                });
-            }
+            rows.AddRange(post.Tags.Select(tag => new RankingRow("tag", tag, null, post.Similarity)));
 
             return rows;
         })
-        .DistinctBy(x => (x as dynamic)!.Label)
-        .OrderByDescending(x => (x as dynamic)!.Similarity)
+        .DistinctBy(x => (x.Type, x.Label))
+        .OrderByDescending(x => x.Similarity)
         .ToList();
 
     return Results.Ok(new
@@ -190,11 +167,11 @@ app.MapGet("/posts/search", async (
     });
 });
 
-app.UseHttpsRedirection();
-
 app.MapGet("/", () => Results.Ok(new
 {
     message = "Semantic Search API is running"
 }));
 
 app.Run();
+
+internal sealed record RankingRow(string Type, string Label, string? Detail, double Similarity);

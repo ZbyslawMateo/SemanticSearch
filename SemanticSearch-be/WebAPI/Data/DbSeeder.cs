@@ -63,22 +63,15 @@ public static class DbSeeder
             })
             .ToList();
 
-        if (items.Count > 0)
-        {
-            items[0].BrandId = nike.Id;
-            items[0].ColorId = black.Id;
-        }
+        // Distribute brands/colors across all items so every item has both,
+        // instead of only the first three.
+        var brands = new[] { nike, zara, hm };
+        var colors = new[] { black, white, beige };
 
-        if (items.Count > 1)
+        for (var i = 0; i < items.Count; i++)
         {
-            items[1].BrandId = zara.Id;
-            items[1].ColorId = beige.Id;
-        }
-
-        if (items.Count > 2)
-        {
-            items[2].BrandId = hm.Id;
-            items[2].ColorId = white.Id;
+            items[i].BrandId = brands[i % brands.Length].Id;
+            items[i].ColorId = colors[i % colors.Length].Id;
         }
 
         var tags = tagDtos
@@ -111,7 +104,19 @@ public static class DbSeeder
         db.PostItems.AddRange(postItems);
         db.PostTags.AddRange(postTags);
 
-        await db.SaveChangesAsync();
+        // Seed atomically so a mid-way failure rolls back instead of leaving
+        // the database half-seeded (which the AnyAsync guard above would then skip).
+        await using var transaction = await db.Database.BeginTransactionAsync();
+        try
+        {
+            await db.SaveChangesAsync();
+            await transaction.CommitAsync();
+        }
+        catch
+        {
+            await transaction.RollbackAsync();
+            throw;
+        }
     }
 
     private sealed class PostDto
